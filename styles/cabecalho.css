@@ -1,0 +1,47 @@
+.cabecalho{
+    align-items: center;
+    display: flex;
+    margin: 1.75rem 0;
+}
+.cabecalho__container{
+    align-items: center;
+    display: flex;
+}
+.cabecalho__titulo{
+    color: var(--cinza);
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-left: 0.5rem;
+}
+.navbar{
+    margin-left: 7.438rem;
+    margin-right: auto;
+}
+.navbar__lista{
+    display: flex;
+}
+.navbar__item{
+    margin-right: 2rem;
+}
+.navbar__link{
+    color: var(--text-secundario);
+    font-weight: 500;
+    text-decoration: none;
+}
+.acesso__entrar{
+    color: var(--text-secundario);
+    font-weight: 500;
+    background: transparent;
+    border-style: none;
+    margin-right: 1.875rem;
+
+}
+.acesso__cadastro{
+    color: var(--branco);
+    background-color: var(--botao-cadastro);
+    border-radius: 0.5rem;
+    border: 1px solid var(--botao-cadastro);
+    box-shadow:var(--botao);
+    font-weight: 500;
+    padding: 0.625rem 1.125rem ;
+}
