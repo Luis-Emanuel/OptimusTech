@@ -1,0 +1,42 @@
+.sobrenos{
+    text-align: center;
+    padding: 6rem 0;
+    
+}
+.sobrenos__titulo{
+    color: var(--marrom);
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+.sobrenos__subtitulo{
+    color: var(--preto);
+    font-weight: 600;
+    font-size: 3rem;
+    margin-bottom: 2.25rem;
+}
+.sobrenos__descricao{
+    font-size: 1.25rem;
+    margin-bottom: 6.688rem;
+}
+.sobrenos__lista{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    text-align: initial;
+    justify-content: space-between;
+}
+.lista__item{
+    width: 17.5rem;
+}
+.lista__numero{
+    color: var(--marrom);
+    font-weight: 600;
+    font-size: 3.75rem;
+}
+.lista__titulo{
+    color: var(--preto);
+    font-weight: 500;
+    font-size: 1.125rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.5rem;
+}

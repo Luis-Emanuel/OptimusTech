@@ -1,12 +1,13 @@
 @import url(styles/cabecalho.css);
+@import url(styles/sobreNos.css);
 :root{
     /*CORES*/
     --branco: #FFFFFF;
     --cinza: #3A404E;
     --text-secundario:#667085; 
-    --botao-cadastro:#8E2424;
+    --marrom:#8E2424;
     --botao-sombra:rgb(16, 24, 40, 0.05) ;
-
+    --preto: #101828;
     /*SOMBRA*/
     --botao:0px 1px 2px var(--botao-sombra);
 

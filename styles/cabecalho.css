@@ -1,7 +1,7 @@
 .cabecalho{
     align-items: center;
     display: flex;
-    margin: 1.75rem 0;
+    padding: 1.125rem 0;
 }
 .cabecalho__container{
     align-items: center;
@@ -38,9 +38,9 @@
 }
 .acesso__cadastro{
     color: var(--branco);
-    background-color: var(--botao-cadastro);
+    background-color: var(--marrom);
     border-radius: 0.5rem;
-    border: 1px solid var(--botao-cadastro);
+    border: 1px solid var(--marrom);
     box-shadow:var(--botao);
     font-weight: 500;
     padding: 0.625rem 1.125rem ;
