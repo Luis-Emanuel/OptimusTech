@@ -1,5 +1,6 @@
 @import url(styles/cabecalho.css);
 @import url(styles/sobreNos.css);
+@import url(styles/vagas.css);
 :root{
     /*CORES*/
     --branco: #FFFFFF;
@@ -8,9 +9,12 @@
     --marrom:#8E2424;
     --botao-sombra:rgb(16, 24, 40, 0.05) ;
     --preto: #101828;
+    --cinza-fundo-titulo: rgb(42, 36, 36, 0.05);
+    --borda-vaga:#EAECF0;
     /*SOMBRA*/
     --botao:0px 1px 2px var(--botao-sombra);
-
+    /*BORDA*/
+    --vaga: 1px solid var(--borda-vaga);
     /*FONTES*/
     --inter:"Inter";
 }

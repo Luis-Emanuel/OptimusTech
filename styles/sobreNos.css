@@ -4,9 +4,13 @@
     
 }
 .sobrenos__titulo{
+    background-color: var(--cinza-fundo-titulo);
     color: var(--marrom);
+    display: inline-block;
     font-weight: 600;
     margin-bottom: 1.5rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
 }
 .sobrenos__subtitulo{
     color: var(--preto);
