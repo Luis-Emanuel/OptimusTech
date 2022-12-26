@@ -19,9 +19,7 @@
 }
 .navbar__lista{
     display: flex;
-}
-.navbar__item{
-    margin-right: 2rem;
+    gap: 2rem;
 }
 .navbar__link{
     color: var(--text-secundario);
