@@ -1,6 +1,8 @@
 @import url(styles/cabecalho.css);
 @import url(styles/sobreNos.css);
 @import url(styles/vagas.css);
+@import url(styles/comentarios.css);
+@import url(styles/rodape.css);
 :root{
     /*CORES*/
     --branco: #FFFFFF;
@@ -11,6 +13,8 @@
     --preto: #101828;
     --cinza-fundo-titulo: rgb(42, 36, 36, 0.05);
     --borda-vaga:#EAECF0;
+    --marca-footer:#98A2B3;
+    --borda-email: #D0D5DD;
     /*SOMBRA*/
     --botao:0px 1px 2px var(--botao-sombra);
     /*BORDA*/
@@ -19,11 +23,9 @@
     --inter:"Inter";
 }
 body{
-    background-color: var(--branco);
     font-family: var(--inter);
     font-size: 16px;
     font-weight: 400;
-    margin:0 112px;
     color: var(--text-secundario);
     box-sizing: border-box;
 }
